@@ -20,7 +20,7 @@ class TPQueue {// реализация шаблона очереди с прио
     }
     ITEM* head;
     ITEM* tail;
- 
+
  public:
     T pop() {
         if (head) {
