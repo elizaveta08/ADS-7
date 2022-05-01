@@ -20,7 +20,7 @@ class TPQueue {// реализация шаблона очереди с прио
     }
     ITEM* head;
     ITEM* tail;
-  
+ 
  public:
     T pop() {
         if (head) {
@@ -56,7 +56,7 @@ class TPQueue {// реализация шаблона очереди с прио
             item->next = a;
             a->prev = item;
         }
-    }  
+    }
 };
 
 struct SYM {
